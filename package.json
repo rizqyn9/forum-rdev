@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve" : "nodemon server.ts"
   },
   "keywords": [],
   "author": "rizqyn9",
@@ -16,5 +17,15 @@
     "url": "https://github.com/rizqyn9/forum-rdev/issues"
   },
   "homepage": "https://github.com/rizqyn9/forum-rdev#readme",
-  "description": ""
+  "description": "",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "envalid": "^7.2.1",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.13",
+    "nodemon": "^2.0.12",
+    "ts-node": "^10.2.1"
+  }
 }
